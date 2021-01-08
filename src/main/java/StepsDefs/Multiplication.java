@@ -1,12 +1,12 @@
 package StepsDefs;
 
-import java.util.List;
-
 import cucumber.api.DataTable;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+
+import java.util.List;
 
 public class Multiplication {
 
@@ -14,6 +14,7 @@ public class Multiplication {
 	public int I_have_variable_a() throws Throwable {
 		int a = 50;
 		return a;
+		system.out.println("TestChanges for master branch")
 	}
 
 	@And("^I have variable b$")
